@@ -1,0 +1,86 @@
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#about {
+  padding: 20px;
+}
+
+#about h2 {
+  color: #3498db;
+}
+
+
+#skills {
+  padding: 20px;
+}
+
+#skills h2 {
+  color: #3498db;
+}
+
+
+#projects {
+  padding: 20px;
+}
+
+#projects h2 {
+  color: #3498db;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  color: #333;
+}
+
+
+#contact {
+  padding: 20px;
+}
+
+#contact h2 {
+  color: #3498db;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  header {
+    font-size: 1.5em;
+  }
+
+  #about, #skills, #resume, #contact, #projects {
+    padding: 10px;
+  }
+}
+
+  
